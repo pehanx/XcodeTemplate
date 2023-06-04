@@ -1,8 +1,10 @@
 //  ___FILEHEADER___
 
+typealias ___VARIABLE_productName:identifier___Configuration = (___VARIABLE_productName:identifier___ModuleInput) -> (Void)
+
 final class ___VARIABLE_productName:identifier___ModuleAssembly {
     
-    func assemble() -> ___VARIABLE_productName:identifier___ViewController {
+    func assemble(_ configuration: ___VARIABLE_productName:identifier___Configuration? = nil) -> ___VARIABLE_productName:identifier___ViewController {
         let viewController = ___VARIABLE_productName:identifier___ViewController()
         let router = ___VARIABLE_productName:identifier___Router()
         
@@ -12,6 +14,7 @@ final class ___VARIABLE_productName:identifier___ModuleAssembly {
         viewModel.view = viewController
         viewController.output = viewModel
         router.viewController = viewController
+        configuration?(viewModel)
         return viewController
     }
 }

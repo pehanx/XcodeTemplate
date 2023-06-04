@@ -2,7 +2,7 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ {
+protocol ___FILEBASENAMEASIDENTIFIER___: AnyObject {
     
 }
 

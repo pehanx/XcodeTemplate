@@ -11,3 +11,10 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___ViewOutput {
     
 }
+
+// MARK: - ___VARIABLE_productName:identifier___ModuleInput
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___ModuleInput {
+    func configure(data: ___VARIABLE_productName:identifier___ConfigData) {
+        
+    }
+}

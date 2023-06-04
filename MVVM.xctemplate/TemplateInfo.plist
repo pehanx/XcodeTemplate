@@ -32,5 +32,21 @@
 			</dict>
 		</dict>
 	</array>
+	<key>Components</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>com.apple.dt.unit.messagesextensioncomponentios</string>
+			<key>Name</key>
+			<string>___PACKAGENAME___ MessagesExtension</string>
+			<key>ProductBuildPhaseInjections</key>
+			<array>
+				<dict>
+					<key>TargetIdentifier</key>
+					<string>com.apple.dt.messagesOnlyApp</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
